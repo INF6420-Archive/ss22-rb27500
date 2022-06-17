@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(147, 147, 147);
+    color: rgb(86, 1, 1);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    margin: 1em 1em 0 1em;
+    padding: 0.5rem 1rem;
+    background-color: rgb(113, 111, 111);
+}
+
+main {
+    padding: 1rem 1rem 2rem;
+}
+
+footer {
+    padding: 1rem;
+    background-color: rgb(49, 48, 48);
+    color: rgb(255, 255, 255)
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-menu {
+    position: relative;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.div1 {
+    float: left;
+    padding-left: 10%;
+}
+
+.div2 {
+    float: right;
+    text-align: center;
+    padding-right: 5%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.div3 {
+    float: right;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.div4 {
+    float: left;
+    padding-left: 10%;
+    padding-top: 5%;
+    text-align: left;
+    position: absolute;
+    inline-size: 50%;
+}
+
+.my-work {
+    text-align: left;
+    padding-left: 10%;
+}
