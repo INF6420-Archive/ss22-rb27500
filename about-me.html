@@ -23,7 +23,30 @@
         <div>
              <h1>About Me</h1>
              <p>Learn more about me!</p>
-         </div>   
+         </div>  
+         <form action="https://formspree.io/f/meqnbyjq" method="post" class="validate">
+           <div>
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" class="form-input">
+        
+           </div> 
+
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" name="_replyto"
+            class="form-input" required>
+            </div>
+
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message"
+              class="form-input" rows="4" required></textarea>
+            </div>
+
+            <div>
+              <input type="submit" value="Send"> 
+            </div>         
+        </form> 
  
    </main>
    <footer>
@@ -32,5 +55,6 @@
             <p><a href="mailto: rb27500@gmail.com">Send Me an Email!</a></p>
         </div>
    </footer>
+   <script src="script.js"></script>
 </body>
 </html>
