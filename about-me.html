@@ -18,14 +18,36 @@
         </nav>
    </header>
    <main>
-       <div class="div3"><img src="Images/rachel-bennett-photo.jpg" alt="Rachel Bennett Graduation Photo" style="width: 425px; height: 500px"></div>
-        <div class="div4">
-             <h2>About Me</h2>
-             <p1>Learn more about me!</p1>
-             <br>
-             <br>
-             <p2>I have been a student at Wayne State University since Fall 2021. I am working towards my Master's in Library and Information Science with a Certification in Children and Young Adult Librianship. I have my Bachelor's in Liberal Studies with a focus on Theatre and Women and Gender Studies.</p2>
-         </div>   
+       <div>
+            <img src="Images/rachel-bennett-photo.jpg" alt="Rachel Bennett Graduation Photo">
+       </div>
+        <div>
+             <h1>About Me</h1>
+             <p>Learn more about me!</p>
+         </div>  
+         <form action="https://formspree.io/f/meqnbyjq" method="post" class="validate">
+           <div>
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" class="form-input">
+        
+           </div> 
+
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" name="_replyto"
+            class="form-input" required>
+            </div>
+
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message"
+              class="form-input" rows="4" required></textarea>
+            </div>
+
+            <div>
+              <input type="submit" value="Send"> 
+            </div>         
+        </form> 
  
    </main>
    <footer class="footer">
@@ -34,5 +56,6 @@
             <p><a href="mailto: rb27500@gmail.com">Send Me an Email!</a></p>
         </div>
    </footer>
+   <script src="script.js"></script>
 </body>
 </html>
