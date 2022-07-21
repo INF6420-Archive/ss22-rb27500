@@ -41,6 +41,7 @@ nav a {
 
 .topnav {
     overflow: hidden;
+    font-size: 12px;
 }
 
 .topnav a {
@@ -59,6 +60,8 @@ nav a {
 .div1 {
     float: left;
     padding-left: 10%;
+    position: relative;
+    bottom: 8px;
 }
 
 .div2 {
@@ -82,12 +85,21 @@ nav a {
 }
 
 .div4 {
-    float: left;
     padding-left: 10%;
     padding-top: 5%;
     text-align: left;
-    position: absolute;
+    position: relative;
+    bottom: 80px;
     inline-size: 50%;
+}
+
+.div5 {
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    zoom: .75;
 }
 
 .my-work {
