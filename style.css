@@ -20,8 +20,9 @@ header {
     background-color: rgb(162, 159, 159);
 }
 
-main {
+main:not(.my-work) {
     padding: 1rem 1rem 2rem;
+    display: flex;
 }
 
 footer {
@@ -30,9 +31,17 @@ footer {
     color: rgb(255, 255, 255)
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 nav a {
     text-transform: uppercase;
     text-decoration: none;
+    color:rgb(86, 1, 1);
 }
 
 .main-menu {
@@ -40,16 +49,19 @@ nav a {
 }
 
 .topnav {
-    overflow: hidden;
     font-size: 12px;
 }
 
-.topnav a {
-    float: right;
-    display: block;
-    text-align: center;
+.topnav {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
     padding: 14px 16px;
-    text-decoration: none;
+}
+
+.topnav li {
+    list-style-type: none;
 }
 
 .topnav a:hover {
@@ -58,14 +70,12 @@ nav a {
 }
 
 .div1 {
-    float: left;
     padding-left: 10%;
     position: relative;
     bottom: 8px;
 }
 
 .div2 {
-    float: right;
     text-align: center;
     padding-right: 5%;
 }
@@ -79,7 +89,6 @@ nav a {
 }
 
 .div3 {
-    float: right;
     padding-right: 5%;
     padding-bottom: 5%;
 }
@@ -89,7 +98,6 @@ nav a {
     padding-top: 5%;
     text-align: left;
     position: relative;
-    bottom: 80px;
     inline-size: 50%;
 }
 
@@ -153,7 +161,7 @@ label {
 [type="submit"]:hover,
 [type="submit"]:focus {
     background: rgb(80, 77, 77);
-    color: rgb(224, 38, 38);
+    color: white;
 }
 
 textarea {
